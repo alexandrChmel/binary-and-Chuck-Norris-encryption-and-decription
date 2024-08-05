@@ -1,19 +1,10 @@
 package chucknorris;
 
-import java.util.Arrays;
 import java.util.Scanner;
-import java.util.function.IntBinaryOperator;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-/*
-1 -The encoded message includes characters other than 0 or spaces;
-2 -The first block of each sequence is not 0 or 00;
-3 - The number of blocks is odd;
-
- */
-        //TODO THERE MIGHT BE PROBLEM IN 4 - The length of the decoded binary string is not a multiple of 7.
 
         while(true){
             System.out.println("Please input operation (encode/decode/exit):");
@@ -146,5 +137,4 @@ public class Main {
         return String.valueOf(result);
 
     }
-    //ghgg
 }
